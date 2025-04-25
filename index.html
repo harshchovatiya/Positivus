@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus</title>
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <link rel="stylesheet" href="./assets/Css/mobile.css">
+    <link rel="shortcut icon" href="./assets/Img/Vector (1).svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c4c8ff35ac.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+    </script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js">
+    </script>
+
+</head>
+
+<body>
+    <!-- --------Header----------- -->
+    <header class="header-container flex justify-between align-center ">
+        <div class="logo-block">
+            <img src="./assets/Img/Logo.svg" alt="">
+        </div>
+        <div class="menu-block flex justify-between align-center sm:hidden md:hidden">
+            <a href="" class="text-none">About Us</a>
+            <a href="" class="text-none">Services</a>
+            <a href="" class="text-none">Use Cases</a>
+            <a href="" class="text-none">Pricing</a>
+            <a href="" class="text-none">Blog</a>
+            <button class="white-btn sm:hidden">Request a quote</button>
+        </div>
+        <button onclick="myFunction()" class=" lg:hidden sm:visible md:visible" style="border: none; background-color: white;"><i
+                class="fa-solid fa-angle-down" id="down"></i> <i class="fa-solid fa-angle-up" id="up"
+                style="display: none;"></i></button>
+    </header>
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="" class="text-none">About Us</a>
+        <a href="" class="text-none">Services</a>
+        <a href="" class="text-none">Use Cases</a>
+        <a href="" class="text-none">Pricing</a>
+        <a href="" class="text-none">Blog</a>
+    </div>
+
+    <!-- ----------page 1----------------     -->
+
+    <section class="hero-section ">
+        <div class="hero-container flex justify-between align-center sm:column">
+            <div class="hero-caption">
+                <h1>Navigating the digital landscape for success</h1>
+                <img src="./assets/Img/Illustration.svg" alt="" class="lg:hidden sm:visible">
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
+                    including SEO, PPC, social media marketing, and content creation.</p>
+                <button class="black-btn">Book a consultation</button>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/Img/Illustration.svg" alt="" class="sm:hidden">
+            </div>
+        </div>
+        <div class="hero-logos hero-container flex justify-between align-center sm:wrap">
+            <img src="./assets/Img/Company logo.svg" alt="">
+            <img src="./assets/Img/Company logo (1).svg" alt="">
+            <img src="./assets/Img/Company logo (2).svg" alt="">
+            <img src="./assets/Img/Company logo (3).svg" alt="">
+            <img src="./assets/Img/Company logo (4).svg" alt="">
+            <img src="./assets/Img/Company logo (5).svg" alt="">
+        </div>
+    </section>
+
+
+    <!-- ----------page 2----------------- -->
+
+    <section class="services-section ">
+        <div class="services-header header">
+            <h1>Services</h2>
+                <p>
+                    At our digital marketing agency, we offer a range of services to <br class="sm:hidden"> help
+                    businesses grow and
+                    succeed online. These services include:
+                </p>
+        </div>
+
+        <div class="service-cards ">
+
+            <div class="service-card flex justify-between align-center align-between" style="grid-area: 1 / 1 / 2 / 2;">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark>Search engine</mark>
+                        <br>
+                        <mark>optimization</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg;"></i></span> <span class="sm:hidden">Learn more </span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img/tokyo-magnifier-web-search-with-elements 2.svg"
+                        alt="Search engine optimization illustration" class="service-icon">
+                </div>
+
+            </div>
+
+            <div class="service-card flex justify-between align-center align-between"
+                style="grid-area: 1 / 2 / 2 / 3; background-color: #B9FF66;">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark style="background-color: #F3F3F3;">Pay-per-click</mark>
+                        <br>
+                        <mark style="background-color: #F3F3F3;">advertising</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg;"></i></span> <span class="sm:hidden">Learn more </span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img//tokyo-selecting-a-value-in-the-browser-window 1.svg"
+                        alt="Search engine optimization illustration" class="service-icon">
+                </div>
+
+            </div>
+
+            <div class="service-card flex justify-between align-center align-between"
+                style="grid-area: 2 / 1 / 3 / 2; background-color: #191A23;">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark style="background-color: #F3F3F3;">Social Media</mark>
+                        <br>
+                        <mark style="background-color: #F3F3F3;">Marketing</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg; color: #191A23; background-color: #F3F3F3;"></i></span><span
+                            style="color: #F3F3F3;" class="sm:hidden"> Learn more</span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img/Illustration (1).svg" alt="Search engine optimization illustration"
+                        class="service-icon">
+                </div>
+
+            </div>
+
+            <div class="service-card flex justify-between align-center align-between"
+                style="grid-area: 2 / 2 / 3 / 3; ">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark style="background-color: #B9FF66;">Email</mark>
+                        <br>
+                        <mark style="background-color: #B9FF66;">Marketing</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg;"></i></span> <span class="sm:hidden">Learn more </span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img/tokyo-sending-messages-from-one-place-to-another 1.svg"
+                        alt="Search engine optimization illustration" class="service-icon">
+                </div>
+
+            </div>
+
+            <div class="service-card flex justify-between align-center align-between"
+                style="grid-area: 3 / 1 / 4 / 2; background-color: #B9FF66;">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark style="background-color: #F3F3F3;">Content</mark>
+                        <br>
+                        <mark style="background-color: #F3F3F3;">Creation</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg;"></i></span> <span class="sm:hidden">Learn more </span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img/tokyo-many-browser-windows-with-different-information 1.svg"
+                        alt="Search engine optimization illustration" class="service-icon">
+                </div>
+
+            </div>
+
+            <div class="service-card flex justify-between align-center align-between"
+                style="grid-area: 3 / 2 / 4 / 3;  background-color: #191A23;">
+
+                <div class="service-title flex flex-column ">
+                    <h1><mark style="background-color: #B9FF66;">Analytics and </mark>
+                        <br>
+                        <mark style="background-color: #B9FF66;">Tracking</mark>
+                    </h1>
+                    <a href="#" class="service-link flex align-center">
+                        <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                                style="--fa-rotate-angle: 50deg; color: #191A23; background-color: #F3F3F3;"></i></span><span
+                            style="color: #F3F3F3;" class="sm:hidden"> Learn more</span>
+                    </a>
+                </div>
+
+                <div class="service-image">
+                    <img src="./assets/Img/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.svg"
+                        alt="Search engine optimization illustration" class="service-icon">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- ----------page 3 --------------- -->
+
+    <section class="cta-section ">
+        <div class="cta-content">
+            <h2 class="cta-title">Let’s make things happen</h2>
+            <p class="cta-description">
+                Contact us today to learn more about how our digital <br> marketing services can help your business grow
+                and <br> succeed online.
+            </p>
+            <button class="black-btn">Get your free proposal</button>
+        </div>
+
+        <div class="cta-illustration sm:hidden">
+            <img src="./assets/Img/Frame 19.svg" alt="">
+        </div>
+    </section>
+
+
+    <!-- ------page 4--------------- -->
+
+    <section class="case-studies-section ">
+        <div class=" header">
+            <h1>Case Studies</h1>
+            <p>
+                Explore Real-Life Examples of Our Proven Digital Marketing <br> Success through Our Case Studies
+            </p>
+        </div>
+
+        <div class="case-studies flex ">
+            <div class="case-study-card sm:hidden">
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in
+                    website traffic and a 25% increase in sales.
+                </p>
+                <a href="#" class="service-link flex align-center" style="color: #B9FF66;">
+                    Learn more
+                    <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                            style="--fa-rotate-angle: 50deg;"></i></span>
+                </a>
+            </div>
+
+            <div class="case-study-card sm:hidden">
+                <p class="case-study-description">
+                    For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for
+                    key keywords and a 200% increase in organic traffic.
+                </p>
+                <a href="#" class="service-link flex align-center" style="color: #B9FF66;">
+                    Learn more
+                    <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                            style="--fa-rotate-angle: 50deg;"></i></span>
+                </a>
+            </div>
+
+            <div class="case-study-card " style="border: none;">
+                <p class="case-study-description">
+                    For a national retail chain, we created a social media marketing campaign that increased followers
+                    by 25% and generated a 20% increase in online sales.
+                </p>
+                <a href="#" class="service-link flex align-center" style="color: #B9FF66;">
+                    Learn more
+                    <span class="service-link-icon"><i class="fa-solid fa-arrow-up fa-rotate-by"
+                            style="--fa-rotate-angle: 50deg;"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------page 5---------------- -->
+
+    <section class="working-process-section ">
+        <div class="header">
+            <h1>Our Working Process</h1>
+            <p>
+                Step-by-Step Guide to Achieving <br>Your Business Goals
+            </p>
+        </div>
+
+        <div class="process-steps accordion">
+            <div class="process-step  accordion-item active ">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">01 <span
+                            class="process-step-title">Consultation</span></h1>
+                    <button onclick="toggleAccordion(this)">-</button>
+                </div>
+                <div class="process-step-content accordion-content  accordion-content-1 ">
+                    <p class="">
+                        During the initial consultation, we will discuss your business goals and objectives, target
+                        audience, and current marketing efforts. This will allow us to understand your needs and tailor
+                        our services to best fit your requirements.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="process-step accordion-item">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">02 <span
+                            class="process-step-title">Research and <br class="lg:hidden sm:visible"> Strategy
+                            Development</span></h1>
+                    <button onclick="toggleAccordion(this)">+</button>
+                </div>
+                <div class="process-step-content accordion-content">
+                    <p class="">
+                        Research and Strategy Development, in essence, involves using gathered knowledge and data to
+                        create plans and directions for achieving specific goals.
+                    </p>
+                </div>
+            </div>
+
+            <div class="process-step accordion-item">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">03 <span
+                            class="process-step-title">Implementation</span></h1>
+                    <button onclick="toggleAccordion(this)">+</button>
+                </div>
+                <div class="process-step-content accordion-content">
+                    <p class="">
+                        The term "implementation" in the context of projects generally refers to the execution phase
+                        where a plan is put into action. It involves coordinating resources and activities to achieve
+                        project objectives.
+                    </p>
+                </div>
+            </div>
+
+            <div class="process-step accordion-item">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">04 <span
+                            class="process-step-title">Monitoring and Optimization</span></h1>
+                    <button onclick="toggleAccordion(this)">+</button>
+                </div>
+                <div class="process-step-content accordion-content">
+                    <p class="">
+                        Monitoring involves tracking key performance indicators (KPIs) and detecting anomalies in
+                        real-time to ensure reliability and availability. Optimization focuses on improving resource
+                        utilization and efficiency to maximize performance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="process-step accordion-item">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">05 <span
+                            class="process-step-title">Reporting and Communication</span></h1>
+                    <button onclick="toggleAccordion(this)">+</button>
+                </div>
+                <div class="process-step-content accordion-content">
+                    <p class="">
+                        Reporting is a structured communication method used to present information about a project,
+                        situation, or process in a clear, concise, and organized manner. Effective reporting ensures
+                        stakeholders are informed and can make informed decisions based on the data provided.
+                    </p>
+                </div>
+            </div>
+
+            <div class="process-step accordion-item">
+                <div class="process-step-header flex justify-between align-center">
+                    <h1 class="process-step-number flex align-center justify-between">06 <span
+                            class="process-step-title">Continual Improvement</span></h1>
+                    <button onclick="toggleAccordion(this)">+</button>
+                </div>
+                <div class="process-step-content accordion-content">
+                    <p class="">
+                        Continual Improvement is about making small, ongoing changes to processes and systems to achieve
+                        better outcomes. It's a philosophy that emphasizes continuous learning and adaptation to stay
+                        competitive and efficient.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- -------------page 6--------------- -->
+
+    <section class="team-section">
+        <div class="header">
+            <h1>Team</h1>
+            <p>
+                Meet the skilled and experienced team behind our <br> successful digital marketing strategies
+            </p>
+        </div>
+
+        <div class="team-members">
+
+            <div class="team-member-card" style=" grid-area: 1 / 1 / 2 / 2;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>John Smith</h1>
+                        <p>CEO and Founder</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+            </div>
+
+            <div class="team-member-card" style=" grid-area: 1 / 2 / 2 / 3;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team1.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>Jane Doe</h1>
+                        <p>Director of Operations</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>7+ years of experience in project management and team leadership. Strong organizational and
+                    communication skills</p>
+            </div>
+
+            <div class="team-member-card" style=" grid-area: 1 / 3 / 2 / 4;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team2.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>Michael Brown</h1>
+                        <p>Senior SEO Specialist</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>5+ years of experience in SEO and content creation. Proficient in keyword research and on-page
+                    optimization</p>
+            </div>
+
+            <div class="team-member-card" style=" grid-area: 2 / 1 / 3 / 2;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team3.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>Emily Johnson</h1>
+                        <p>PPC Manager</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>3+ years of experience in paid search advertising. Skilled in campaign management and performance
+                    analysis</p>
+            </div>
+
+            <div class="team-member-card sm:hidden" style=" grid-area: 2 / 2 / 3 / 3;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team4.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>Brian Williams</h1>
+                        <p>Social Media <br>Specialist</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>4+ years of experience in social media marketing. Proficient in creating and scheduling content,
+                    analyzing metrics, and building engagement</p>
+            </div>
+
+            <div class="team-member-card sm:hidden" style="grid-area: 2 / 3 / 3 / 4;">
+                <div class="card-details flex justify-between">
+                    <img src="./assets/Img/team5.svg" alt="">
+                    <div class="card-name" style="align-self:self-end">
+                        <h1>Sarah Kim</h1>
+                        <p>Content Creator</p>
+                    </div>
+                    <i class="fa-brands fa-linkedin-in" style="align-self:self-start"></i>
+                </div>
+                <p>2+ years of experience in writing and editing
+                    Skilled in creating compelling, SEO-optimized content for various industries</p>
+            </div>
+
+        </div>
+
+        <div class="team-footer">
+            <button class="black-btn" style="float: right;">See all team</button>
+        </div>
+    </section>
+
+    <!-- -------------page 7 -------------- -->
+
+    <section class="testimonials-section ">
+        <div class="header">
+            <h1>Testimonials</h1>
+            <p>
+                Hear from Our Satisfied Clients: Read Our Testimonials <br> to Learn More about Our Digital Marketing
+                Services
+            </p>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="swiper-details">
+                        <p>
+                            " As the Marketing Director at XYZ Corp, this role involves leading the company’s overall marketing strategy, overseeing brand development, and managing both digital and traditional marketing initiatives to support business growth. The Marketing Director is responsible for designing comprehensive marketing plans, setting campaign goals, and coordinating cross-functional teams to deliver effective promotional activities. "
+                        </p>
+                        <h1>John Smith</h1>
+                        <h2>Marketing Director at XYZ Corp</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide2">
+                    <div class="swiper-details">
+                        <p>
+                            " The Director of Operations is a senior executive responsible for managing the overall daily operations of a company and ensuring that business processes run efficiently and effectively. This role involves overseeing multiple departments, coordinating with department heads, and developing strategies to improve operational performance and support the company's long-term objectives. "
+                        </p>
+                        <h1>Jane Doe</h1>
+                        <h2>Director of Operations</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide3">
+                    <div class="swiper-details">
+                        <p>
+                            " A Senior SEO Specialist is a digital marketing professional responsible for developing, implementing, and managing advanced search engine optimization strategies to improve a website’s organic search performance and visibility. This role involves conducting in-depth keyword research, technical SEO audits, content optimization, link-building strategies, and performance analysis using tools like Google Analytics, Search Console, and SEMrush. "
+                        </p>
+                        <h1>Michael Brown</h1>
+                        <h2>Senior SEO Specialist</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide4">
+                    <div class="swiper-details">
+                        <p>
+                            " A PPC (Pay-Per-Click) Manager is a digital advertising specialist responsible for planning, executing, and optimizing paid marketing campaigns across platforms like Google Ads, Bing Ads, Facebook, Instagram, and other digital networks. Their primary goal is to drive targeted traffic, generate leads, and increase conversions while maintaining efficient ad spend and maximizing return on investment (ROI). "
+                        </p>
+                        <h1>Emily Johnson</h1>
+                        <h2>PPC Manager</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide5">
+                    <div class="swiper-details">
+                        <p>
+                            " A Social Media Specialist is a digital marketing professional responsible for managing a brand’s presence across social media platforms like Facebook, Instagram, Twitter, LinkedIn, TikTok, and others. Their role involves creating, scheduling, and publishing engaging content, interacting with audiences, and building online communities to enhance brand awareness and customer engagement. "
+                        </p>
+                        <h1>Brian Williams</h1>
+                        <h2>Social Media Specialistt</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide6">
+                    <div class="swiper-details">
+                        <p>
+                            " A Content Creator is a creative professional responsible for producing engaging, valuable, and original content across various digital platforms to connect with target audiences and support a brand’s marketing goals. This role involves developing content in multiple formats, including articles, blogs, social media posts, videos, graphics, and podcasts, tailored to specific platforms and audience preferences.  "
+                        </p>
+                        <h1>Sarah Kim</h1>
+                        <h2>Content Creator</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons flex justify-between align-center">
+            <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+
+    </section>
+
+    <!-- -------------page 8 ---------- -->
+
+    <section class="contact-section ">
+        <div class="header">
+            <h1>Contact Us</h1>
+            <p>
+                Connect with Us: Let’s Discuss Your Digital Marketing Needs
+            </p>
+        </div>
+
+        <div class="contact-form-container flex justify-between  sm:column">
+            <form class="contact-form" action="#" method="post">
+                <div class="contact-options">
+                    <label class="option-label">
+                        <input type="radio" name="contact_reason" value="say_hi" checked class="radio">
+                        Say Hi
+                    </label>
+                    <label class="option-label">
+                        <input type="radio" name="contact_reason" value="get_quote" class="radio">
+                        Get a Quote
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label> <br>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email*</label> <br>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message*</label> <br>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Message"
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="form-button black-btn sm:hidden">Send Message</button>
+            </form>
+
+            <div class="contact-illustration sm:hidden">
+                <img src="./assets/Img/Illustration  1.png" alt="">
+            </div>
+        </div>
+
+        <button type="submit" class="form-button black-btn lg:hidden sm:visible">Send Message</button>
+    </section>
+
+
+    <!-- ---------------footer------------- -->
+
+    <footer class="footer">
+        <div class="footer-nav flex justify-between align-center sm:column">
+            <img src="./assets/Img/Logo (1).svg" alt="">
+            <nav class="footer-navigation flex align-between sm:column">
+                <a href="#" class="footer-link">About us</a>
+                <a href="#" class="footer-link">Services</a>
+                <a href="#" class="footer-link">Use Cases</a>
+                <a href="#" class="footer-link">Pricing</a>
+                <a href="#" class="footer-link">Blog</a>
+            </nav>
+            <div class="nav-logos flex align-center sm:hidden">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="footer-contact-subscribe flex justify-between align-center sm:column">
+            <div class="footer-contact">
+                <h4 class="footer-contact-title">Contact us:</h4>
+                <p class="footer-contact-item">Email: info@positivus.com</p>
+                <p class="footer-contact-item">Phone: 555-567-8901</p>
+                <p class="footer-contact-item">
+                    Address: 1234 Main St<br>
+                    Moonstone City, Stardust State 12345
+                </p>
+            </div>
+
+            <form class="footer-subscribe-form flex align-center sm:column" action="#" method="post">
+                <input type="email" name="subscribe_email" class="subscribe-input" placeholder="Email">
+                <button type="submit" class="primary-btn">Subscribe to news</button>
+            </form>
+
+            <div class="nav-logos flex align-center lg:hidden sm:visible">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom flex align-center">
+            <p class="footer-copy">© 2023 Positivus. All Rights Reserved.</p>
+            <a href="#" class="footer-privacy-link">Privacy Policy</a>
+        </div>
+    </footer>
+
+
+    <script src="./assets/Script/script.js"></script>
+</body>
+
+</html>
